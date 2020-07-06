@@ -24,9 +24,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/font-awesome/css/font-awesome.min.css",
+              "src/assets/bootstrap4/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/jquery/jquery-3.5.1.slim.min.js",
+              "src/assets/jquery/tether.min.js",
+              "src/assets/bootstrap4/js/bootstrap.min.js",
+              
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +126,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "foundussweb"
+    }
+  },
+  "defaultProject": "foundussweb",
+  "cli": {
+    "analytics": false
+  }
 }

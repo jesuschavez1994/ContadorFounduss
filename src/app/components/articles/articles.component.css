@@ -1,0 +1,33 @@
+.orange{
+    color:#F09207;
+}
+.naranja-fondo{
+    background: #E18919;
+}
+.letter-spacing{
+    letter-spacing: 4px;
+}
+
+.green {
+    background: #53af8a;
+}
+.card-img-top.pasos-img{
+    width: 80px;
+    height: 80px;
+}
+.text-center{
+    text-align: center;
+}
+.green.family-700.white{
+    width: 100%;
+    border-radius: 20px;
+}
+
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1400px !important;
+    }
+}
+@media(max-width:1300px){
+    .cajas{display: none;}
+}
