@@ -22,6 +22,11 @@
     width: 100%;
     border-radius: 20px;
 }
+.col-md-12.col-lg-6.col-xl-6.pt-3.caja{
+    position: absolute;
+    top:-240px;
+    right: -18%;
+}
 
 @media (min-width: 1200px){
     .container, .container-lg, .container-md, .container-sm, .container-xl {
@@ -29,5 +34,9 @@
     }
 }
 @media(max-width:1300px){
+    .cajas{display: none;}
+}
+
+@media(min-width:400px) and (max-width:500px){
     .cajas{display: none;}
 }

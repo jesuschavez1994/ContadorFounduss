@@ -52,6 +52,7 @@
 .family-600{font-family: 'Montserrat', sans-serif;font-weight: 600;}
 .family-700{font-family: 'Montserrat', sans-serif;font-weight: 600;}
 
+.size-65{font-size: 65px;}
 .size-60{font-size: 60px;}
 .size-57{font-size: 57px;}
 .size-54{font-size: 54px;}
@@ -100,6 +101,10 @@
     animation-fill-mode: both;
 }
 
+.text-align-center{
+    text-align: center;
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -121,7 +126,7 @@
     .order1{order:1;}
     .order2{order:2;}
     .h2-title{display: none;}
-    .family-700.size-57.pb-5{font-size: 38px; padding-bottom: 35% !important;}
+    .family-700.size-65.pb-5{font-size: 38px; padding-bottom: 35% !important;}
     .simply-amount{font-size: 40px;}
     .simply-section {margin: 0 1%;}
     .simply-word{font-size: 15px;}
