@@ -9,7 +9,7 @@ section{position: relative;}
 .text-pronto{font-weight: bold;text-align: end;margin-top: 8%;}
 .col-md-8.col-lg-10.col-xl-10.content-primary-img{position: absolute;height: 100vh;z-index: -1;top:2%;}
 .content-secondary-img{width:100%;height:100%;display:flex;align-items: flex-end;}
-.pointer{cursor: pointer;}
+
 @media (min-width: 1200px){
     .container, .container-lg, .container-md, .container-sm, .container-xl {
         max-width: 100% !important;
@@ -158,6 +158,7 @@ section{position: relative;}
     .fredoka.white.size-18.orange.sombra-v2.pb-3{font-size: 13px;}
     .family-300.white.size-18{font-size: 12px;}
     .fredoka.white.size-20.pt-3{font-size: 13px;}
+    .fredoka.size-21{font-size: 15px; width: 87%;}
 }
 
 @media(min-width:400px) and (max-width:1300px){
