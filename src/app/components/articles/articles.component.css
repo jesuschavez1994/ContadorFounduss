@@ -1,31 +1,32 @@
-.orange{
-    color:#F09207;
-}
-.naranja-fondo{
-    background: #E18919;
-}
-.letter-spacing{
-    letter-spacing: 4px;
-}
-
-.green {
-    background: #53af8a;
-}
-.card-img-top.pasos-img{
-    width: 80px;
-    height: 80px;
-}
-.text-center{
-    text-align: center;
-}
-.green.family-700.white{
-    width: 100%;
-    border-radius: 20px;
-}
+.orange{color:#F09207;}
+.naranja-fondo{background: #0a68ef;}
+.letter-spacing{letter-spacing: 4px;}
+.green {background: #53af8a;}
+.card-img-top.pasos-img{width: 80px;height: 80px;}
+.sombra{text-shadow: 3px 6px 0px  rgba(17,75,119,1);}
+.sombra-v2{text-shadow: 3px 3px 0px  rgba(17,75,119,1);}
+.text-center{text-align: center;}
+.green.family-700.white{width: 100%;border-radius: 20px;}
 .col-md-12.col-lg-6.col-xl-6.pt-3.caja{
     position: absolute;
     top:-240px;
     right: -18%;
+}
+
+img{
+    height: 100%;
+}
+
+#imgenCaja{
+    position: absolute;
+    z-index: 1000;
+}
+
+button{
+    background: #3bf451; 
+    color:black; 
+    border:none; 
+    border-radius: 15px;
 }
 
 @media (min-width: 1200px){
@@ -39,4 +40,8 @@
 
 @media(min-width:400px) and (max-width:500px){
     .cajas{display: none;}
+}
+
+@media(min-width: 1500px){
+    img{height: 70%;}
 }
