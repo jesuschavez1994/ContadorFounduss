@@ -7,11 +7,12 @@
 .sombra-v2{text-shadow: 3px 3px 0px  rgba(17,75,119,1);}
 .text-center{text-align: center;}
 .green.family-700.white{width: 100%;border-radius: 20px;}
-.col-md-12.col-lg-6.col-xl-6.pt-3.caja{
-    position: absolute;
-    top:-240px;
-    right: -18%;
-}
+.col-md-12.col-lg-6.col-xl-6.pt-3.caja{position: absolute;top:-240px;right: -18%;}
+.h-100vh{height: 100vh;}
+.z-index-1{z-index: 1;}
+.content-secondary-img-two{position: relative; width: 100%; height: 100%; display: flex; justify-content: flex-end;}
+
+section{position: relative;height: 100vh;z-index: -1;}
 
 img{
     height: 100%;
@@ -31,7 +32,7 @@ button{
 
 @media (min-width: 1200px){
     .container, .container-lg, .container-md, .container-sm, .container-xl {
-        max-width: 1400px !important;
+        max-width: 100% !important;
     }
 }
 @media(max-width:1300px){
@@ -40,8 +41,22 @@ button{
 
 @media(min-width:400px) and (max-width:500px){
     .cajas{display: none;}
+    .flex.justify-content-center.align-items-center.column.pt-5{
+        padding-top:5% !important;
+    }
+    .fredoka.white.size-18.orange.sombra-v2.pb-3{
+        padding-top:2% !important;
+        padding-bottom: 0px !important;
+        font-size: 16px;
+    }
+    .fredoka.size-41.pt-3.pb-4.white.sombra{
+        padding-bottom:0px !important;
+        padding-top:0px !important;
+        font-size: 33px;
+    }
 }
 
 @media(min-width: 1500px){
     img{height: 70%;}
+    
 }
