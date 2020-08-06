@@ -11,3 +11,7 @@
     height:40px; 
     background:rgb(168, 168, 168);
 }
+
+@media(min-width:300px) and (max-width:500px){
+    .family-400.white.size-12{ font-size: 9px;}
+}
